@@ -18,14 +18,15 @@ Unlike generic chatbots, it uses a **Hybrid NLP Engine** that combines:
 ## 📸 Project UI
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0a999618-c14e-47be-ab7b-eef141cad963" width="30%" />
-  <img src="https://github.com/user-attachments/assets/423953af-0a3e-4c09-9edc-9f30f58464ed" width="30%" />
-  <img src="https://github.com/user-attachments/assets/a622b7de-4d4e-4a03-adbb-f568a5e95682" width="30%" />
+  <img src="https://github.com/user-attachments/assets/be154834-9a27-4907-b44d-d9dd43db1f66" width="30%" />
+  <img src="https://github.com/user-attachments/assets/18606e67-4ac5-416f-aaa3-e269c6e993b0" width="30%" />
+  <img src="https://github.com/user-attachments/assets/fdc06669-7b76-486b-8d40-278a9e580843" width="30%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dcd0f476-754f-49a1-8592-e07a5c23813c" width="30%" />
-  <img src="https://github.com/user-attachments/assets/0707619b-b95d-40a0-b3fc-257623edfe95" width="30%" />
+  <img src="https://github.com/user-attachments/assets/7efaef45-9a3f-4c77-a21f-2a2fd892e00f" width="30%" />
+  <img src="https://github.com/user-attachments/assets/5c615d3c-8db2-4dd4-a38b-2839f8faf1aa" width="30%" />
+  <img src="https://github.com/user-attachments/assets/e206385b-cfcb-496d-a2b0-86806f3ddca1" width="30%" />
 </p>
 
 ---
