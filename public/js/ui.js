@@ -185,10 +185,20 @@ send = async function() {
     await originalSend();
 };
 
+const courseNames = [
+    "BCA", "BCom", "BSc", "BBA MS", "BBA DB", "BA", "BCom Ecommerce","B.Com Hons", "BVoc Banking", "Bvoc Software Dev", "BAJMC", "BPH", 
+    "MA Anthropology","MA Economics","MA English",
+    "MA Geography","MA Political Science","MA Psychology",
+    "MSc Chemistry","MSc Geoinformatics","MCom", "MVoc Software Dev", "MVoc Banking","MPH", "Forensic Science Course", "Psychological Counselling Course", "Diploma in Data Analytics Course", "Blockchain Course", "Diploma in Analytical Techniques Course",
+    "Robotics and AI Course", "PGDRM", "PGDRS", "Diploma in Banking", "Effective Communication Course"
+];
 
 const autocompleteSuggestions = {
     en: [
-        "BCA Fees", "BBA Admission", "B.Com Eligibility", "Scholarship details",
+        ...courseNames.map(c => `${c} Fees`),
+        ...courseNames.map(c => `${c} Eligibility`),
+        ...courseNames.map(c => `${c} Admission`),
+        "Scholarship details",
         "Library card process", "ID Card Window", "College Timings", "College Location",
         "Who is Shalini Ma'am?", "Faculty Members", "Placement Package",
         "Minor Subjects", "Vocational Course", "Co-curricular subject",
@@ -197,7 +207,10 @@ const autocompleteSuggestions = {
         "Attendance Criteria", "About College", "College Faculty", "Seats in BCA?"
     ],
     hi: [
-        "BCA की फीस", "BBA प्रवेश प्रक्रिया", "B.Com के लिए पात्रता", "छात्रवृत्ति का विवरण",
+        ...courseNames.map(c => `${c} की फीस`),
+        ...courseNames.map(c => `${c} के लिए पात्रता`),
+        ...courseNames.map(c => `${c} में प्रवेश`),
+        "छात्रवृत्ति का विवरण",
         "लाइब्रेरी कार्ड की प्रक्रिया", "आईडी कार्ड (ID Card) विंडो", "कॉलेज खुलने का समय", "कॉलेज कहाँ स्थित है?",
         "शालिनी मैम कौन हैं?", "शिक्षकगण", "प्लेसमेंट पैकेज (Placement)",
         "माइनर विषय (Minor)", "वोकेशनल कोर्स (Vocational)", "को-करिकुलर विषय",

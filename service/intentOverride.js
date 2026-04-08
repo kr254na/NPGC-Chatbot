@@ -93,7 +93,7 @@ if (userMsg.includes("uniform") || userMsg.includes("dress code")) {
 if (userMsg.includes("library card")) {
     setIntent("LIBRARY_CARD_QUERY");
 }
-if (userMsg.includes("minor") || userMsg.includes("vocational") || userMsg.includes("co-curricular") || userMsg.includes("subject choice")) {
+if (userMsg.includes("minor") || userMsg.includes("vocational subject") || userMsg.includes("co-curricular") || userMsg.includes("subject choice")) {
     setIntent("SUBJECT_CHOICE_QUERY");
 }
 

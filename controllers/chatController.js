@@ -10,7 +10,7 @@ const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
 let courses = [];
 
 exports.handleChat = async (req, res) => {
-  const rawMsg = req.body.message.toLowerCase();
+  const rawMsg = req.body.message.toLowerCase().replace(/\./g, '');
   const lang = req.body.lang || "en";
   let context = req.body.context || { lastCourse: null,lastIntent:true, expectingFollowUp:false };
   const userMsg = normalize(rawMsg);
