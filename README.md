@@ -114,7 +114,6 @@ A powerful `COLLEGE_MAP` standardizes inputs:
 erDiagram
     DEPARTMENT ||--o{ COURSE : "offers"
     DEPARTMENT ||--o{ FACULTY : "employs"
-    FACULTY |o--o| DEPARTMENT : "heads (HOD)"
     COURSETYPE ||--o{ COURSE : "categorizes"
     COURSE ||--o| FEES : "has"
     
@@ -129,7 +128,6 @@ erDiagram
     DEPARTMENT {
         int deptId PK
         string deptName
-        int hodId FK
     }
 
     FACULTY {
