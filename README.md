@@ -154,10 +154,15 @@ erDiagram
     }
 
     FEES {
-        int courseId FK
         decimal fees
     }
 ```
+<div align="center">
+
+<img src="https://github.com/user-attachments/assets/baa164b0-0f36-4efa-9155-1487f88cab21" alt="ER Diagram" width="800" style="border:2px solid #4CAF50; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+
+<p><b>ER Diagram for College Database</b></p>
+</div>
 
 ---
 
